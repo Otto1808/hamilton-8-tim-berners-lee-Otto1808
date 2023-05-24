@@ -9,8 +9,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     height: 370px;
 }
@@ -24,14 +24,20 @@ body{
 h1{
     color:#dd5555;
     font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+.Tim{
+    font-size: 20px;
+    text-align: center;
 }
 h2{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 10px;
 }
 .InfoTim{
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
     text-align: justify;
 }
@@ -41,8 +47,8 @@ h2{
     background-color: #dd5555;
     color: white;
     padding: 5px;
-    margin-bottom: 10px;
-    width: 160px;
+    margin-bottom: 0px;
+    width: 150px;
     text-align: center;
     text-decoration: none;
 }
@@ -61,6 +67,7 @@ h2{
     list-style: none;
     cursor: pointer;
     height: 150px;
+    font-size: 25px;
 }
 a{
     text-align: center;
@@ -71,7 +78,7 @@ a{
     flex-direction: column;
 }
 li{
-    margin-right: 30px;
+    margin-right: 40px;
 }
 .Films{
     background-color: white;
@@ -88,14 +95,18 @@ li{
 img{
     width: 100px;
     height: 150px;
-    margin-right: 15px;
-    margin-bottom: 25px;
+    margin: 25px;
 }
 .InfoFilm{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 15px;
+    font-size: 17px;
+    padding: 10px;
+    text-align: justify;
+}
+h3{
+    font-size: 17px;
 }
 h2,.InfoTim,.Films{
     color:#817a83;
